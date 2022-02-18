@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom';
-import {CloseUIButton} from '../src/index';
+import {CloseSpellbook} from '../src/index';
 
 const Welcome = () => {
-  return <CloseUIButton />;
+  return <CloseSpellbook />;
 };
 
 const mountingNode = document.querySelector("#root");
