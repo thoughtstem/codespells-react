@@ -152,7 +152,6 @@ subscribeToUnrealEvent("zone-enter",(data:any)=>{
   pastEvents["zone-enter"].unshift(data)
 })
 
-/*
 export function EventLogger(props){
   const [refreshToken, setRefreshToken] = useState(0)
 
@@ -184,7 +183,6 @@ export function EventLogger(props){
     </>
   )
 } 
-*/
 
 //These seem simple now, but we should isolate them here in case things become more complicated.  The more this file and web-ui.rkt are the only files involved in the React/Racket interface, the better.  Protect our newborn abstractions and give them room to grow!!!
 export const isError = (x) => {
