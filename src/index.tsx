@@ -1,4 +1,5 @@
 import { useState } from 'react';
+export {default as CloseUIButton} from "./Components/WorldWidgets/CloseUIButton"
 
 export function SimpleComponent(){
   const [text, setText] = useState("Click me")

@@ -1,10 +1,8 @@
 import ReactDOM from 'react-dom';
-import {SimpleComponent} from '../src/index';
-
-const x: number = 5; // <-- Look! Typescript is working
+import {CloseUIButton} from '../src/index';
 
 const Welcome = () => {
-  return <SimpleComponent/>;
+  return <CloseUIButton />;
 };
 
 const mountingNode = document.querySelector("#root");
